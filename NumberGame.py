@@ -7,7 +7,7 @@ ws.geometry('600x400') #this is the size of the window of the game
 ws.config(bg='#0000FF') #this is the colour of the background in hexadecimal code
 
 ranNum = random.randint(0, 10) #the random number is chosen between 0 and 10
-chance = 5 #variable - amount of attempts
+chance = 5 #variable #amount of attempts
 var = IntVar()
 disp = StringVar()
 
@@ -50,7 +50,7 @@ Entry(
 
 Button( 
     ws,
-    text='Submit Guess', # press the button to subit the guess
+    text='Submit Guess', #use the button to submit the users guess
     font=('comic-sans', 18),
     command=check_guess
 ).pack()
